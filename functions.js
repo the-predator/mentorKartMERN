@@ -11,4 +11,4 @@ function dvdCheck(res)
     dvd = res/45;
     return (dvd>6)?'normal':'bad data';
    }
-console.log('status is: '+dvdCheck(makeSquareTen(100)));
+console.log('status is: ' + dvdCheck(makeSquareTen(100)));
