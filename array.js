@@ -2,16 +2,16 @@ const arr = ['abc','bcd','efg','jkl'];
             //0,  , 1   , 2   ,  3  
 const zth = arr[0];
 const len = arr.length;
-// console.log('zeroth element is '+ zth);
-// console.log('length of array '+arr.length);
-// for(let i=0; i<arr.length; i++)
-//     {
-//         console.log('pos -> '+ i +' element '+ arr[i]);
-//     }
-//     for(let i=0; i<arr.length; i++)
-//     {
-//         console.log('pos -> '+ i +' element '+ arr[i].toUpperCase());
-//     }
+console.log('zeroth element is '+ zth);
+console.log('length of array '+arr.length);
+for(let i=0; i<arr.length; i++)
+    {
+        console.log('pos -> '+ i +' element '+ arr[i]);
+    }
+    for(let i=0; i<arr.length; i++)
+    {
+        console.log('pos -> '+ i +' element '+ arr[i].toUpperCase());
+    }
 // here we go
   const arr3 = new Array();
   arr3.push(1);
