@@ -23,7 +23,7 @@ const thd = arr[3]
 arr.forEach((el, ind, a)=>{
     console.log(ind+"th : "+a[ind]);
  })
-const [first, second, third, fourth] = arr
+const [first, second, third, fourth] = arr  //es6 destructuring
 console.log("0th : "+arr[0]+" first : "+first);
 console.log("1th : "+arr[1]+" second : "+second);
 console.log("2th : "+arr[2]+" third : "+third);
