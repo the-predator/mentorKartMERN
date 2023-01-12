@@ -15,4 +15,5 @@ avg1();
 const calcDelta = () => {
     console.log("higher order funtions");
 };
+// one function accepting another function as argument
 avgSum2(calcDelta);
