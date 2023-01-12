@@ -1,4 +1,4 @@
-//the following function returns if the element is greater tham 18
+//the following function returns ture if the element is greater tham 18
 const arr = [14, 13, 16, 18, 21, 44];
 function  check(age){
     return age >18;
