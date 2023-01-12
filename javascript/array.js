@@ -12,7 +12,7 @@ for(let i=0; i<arr.length; i++)
     {
         console.log('pos -> '+ i +' element '+ arr[i].toUpperCase());
     }
-// here we go
+// here we  go
   const arr3 = new Array();
   arr3.push(1);
   arr3.push(2);
