@@ -20,3 +20,11 @@ arr.forEach((el)=>{
 console.log(arr2);
 
 //reduce
+var newNumber = arr.reduce((acc, crr) =>{
+    return acc+crr;
+})
+console.log(newNumber);
+//reduce functionality using foreach
+var newNumber2 = 0;
+    arr.forEach((el) => newNumber2 += el);
+console.log(newNumber2);
