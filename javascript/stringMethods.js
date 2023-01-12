@@ -14,4 +14,6 @@ console.log(str.slice(1,5))
 //content manipulation 
  
 const mobs = 'abc,pqr,xyz,lam,rty';
+//split method
 const arr =  mobs.split(',');
+console.log(arr);
