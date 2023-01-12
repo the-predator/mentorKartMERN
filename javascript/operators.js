@@ -36,5 +36,6 @@ console.log('relation object in: '+(a in obj));
 const y = null;
 console.log("?? : " + (y ?? 'Y is NULL'));
 
+//date object
 const dt = new Date();
 console.log('Date Instance : ' + (dt instanceof Date));
