@@ -1,22 +1,22 @@
-//js datatypes
+//js datatypes 
 //Number
 var x = 10;
 console.log(typeof(x));
-//boolean
+//boolean datatype
 var y = true;
 console.log(typeof(y));
-//unidentified
+//unidentified datatype
 var z;
 console.log(typeof(z));
-//null
+//null datatype
 var a = null;
 console.log(typeof(a));
-//object
+//object datatype
 var b = {
      1 : 'a',
      2 : 'b',
      3 : 'c'
         }
-//string
+//string datatype
 var c = 'abc';
 console.log(typeof(c));
