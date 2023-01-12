@@ -49,3 +49,4 @@ console.log(slc2)
 
 arr.splice(start = 0, deleteCount = 0)
 console.log(arr)
+arr.reduce()
