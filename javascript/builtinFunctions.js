@@ -1,4 +1,4 @@
-//typecasting
+//typecasting changing the datatype of a variable
   //string to num
   let a='82';
   console.log('before typecasting :'+typeof(a));
