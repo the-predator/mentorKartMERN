@@ -30,6 +30,7 @@ ul svg{
     height: 40px;
     margin-top: 0;
     color: white;
+    color: rgba(255,255,255,0.87);
 }
 li img{
     width: 40px;
@@ -112,7 +113,7 @@ ul li:hover{
     width: 200px;
     height: 30px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
