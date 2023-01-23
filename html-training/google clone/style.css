@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    color: white;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+ul li{
+    margin: 10px;
+}
+ul svg{
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+    color: white;
+}
+li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.search{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 23px;
+}
+.search input{
+    z-index: 0;
+    width: 80%;
+    height: 45px;
+    border: 0;
+    color: grey;
+    font-size: 1rem;
+}
+.search span{
+    color: grey;
+}
+.search span:hover{
+    cursor: pointer;
+}
+.icons{
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.item{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item img{
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+}
+.item:hover{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.end{
+    color: rgb(17, 110, 110);
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
