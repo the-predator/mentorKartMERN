@@ -49,11 +49,11 @@ main{
     padding: 15px;
     background-color: #fff;
     border: none;
-    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
     margin-bottom: 20px;
 }
 
-.a-form .a-email {
+.a-form .email {
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
@@ -66,12 +66,12 @@ main{
     outline-color: rgb(160, 160, 255);
 }
 
-.a-form .a-email:focus {
+.a-form .email:focus {
     outline: none;
     box-shadow: 0px 0px 2px #0066ff;
 }
 
-.a-form .a-pss {
+.a-form .pass {
     display: block;
     width: 100%;
     padding: 15px;
@@ -84,12 +84,12 @@ main{
     outline-color: rgb(160, 160, 255);
 }
 
-.a-form .a-pss:focus {
+.a-form .pass:focus {
     outline: none;
     box-shadow: 0px 0px 2px #0066ff;
 }
 
-.a-form .a-sub {
+.a-form .sub {
     display: block;
     width: 100%;
     padding: 15px;
@@ -104,25 +104,25 @@ main{
     border-radius: 8px;
 }
 
-.a-form .a-sub:hover {
+.a-form .sub:hover {
     cursor: pointer;
     background-color: #003780;
     border: none;
 }
 
-.a-form .a-sub:active {
+.a-form .sub:active {
     cursor: progress;
     background-color: #102770;
     border: none;
     outline: none;
 }
 
-.a-form .a-sub:focus {
+.a-form .sub:focus {
     outline: none;
     box-shadow: 0px 0px 2px #0066ff;
 }
 
-.a-form .a-link {
+.a-form .link {
     display: block;
     text-decoration: none;
     text-align: center;
@@ -131,7 +131,7 @@ main{
     font-size: 16px;
 }
 
-.a-form .a-hr {
+.a-form .hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 1.5em;
@@ -140,7 +140,7 @@ main{
     border: 1px solid #E0E0E0;
 }
 
-.a-form .a-but {
+.a-form .but {
     display: block;
     width: 60%;
     background-color: #32CD32;
@@ -156,19 +156,19 @@ main{
     border-radius: 8px;
 }
 
-.a-form .a-but:hover {
+.a-form .but:hover {
     cursor: pointer;
     border: none;
     background-color: #67ab04;
     outline: none;
 }
 
-.a-form .a-but:focus {
+.a-form .but:focus {
     outline: none;
     background-color: #67ab04;
 }
 
-.a-ri8{
+.head{
     padding: 15px;
     font-size: 25px;
 }
@@ -181,13 +181,13 @@ main{
     padding-top: 110px;
 }
 
-.a-href{
+.href{
     text-decoration: none;
     font-weight: 700;
     color: black;
 }
 
-.a-href:hover {
+.href:hover {
     text-decoration: underline;
 }
 
@@ -271,7 +271,7 @@ a:hover{
         margin: 2rem 0;
     }
 
-    .a-ri8{
+    .head{
         font-size: 21px;
     }
 

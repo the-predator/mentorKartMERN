@@ -5,13 +5,6 @@ body{
     background-color: black;
     color: white;
 }
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
 .header{
     display: flex;
     justify-content: flex-end;
@@ -69,6 +62,10 @@ ul li:hover{
     border: 0;
     color: grey;
     font-size: 1rem;
+    
+}
+.search input:focus{
+   outline: none;
 }
 .search span{
     color: grey;
